@@ -1,0 +1,35 @@
+
+#backend = CPU
+backend = CUDA
+backend_precision = mixed
+CUDA_list = verlet
+CUDA_sort_every = 0
+
+
+
+sim_type = MD
+steps = 5e5
+T = 300K
+interaction_type = DNA2
+max_backbone_force = 5
+salt_concentration=0.5
+verlet_skin = 0.15
+
+thermostat = langevin
+diff_coeff = 2.5
+dt = 0.005
+
+topology = top.top
+conf_file = stage1.dat 
+
+trajectory_file = trajectory.dat
+print_conf_interval = 5e4
+
+energy_file = energy.dat
+print_energy_every = 1000
+no_stdout_energy = false
+time_scale = linear
+
+restart_step_counter = 1
+refresh_vel = 1
+
