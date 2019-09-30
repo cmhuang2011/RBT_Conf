@@ -9,4 +9,6 @@ Move MATLAB directory to the folder and run RBT_Conf.m.
 Follow the instructions to select the topology, configuration and the json file. Note the json files for importing doesn't hvave to be the same.
 One can break the staples into several pieces with different colors. The staple colors simply are used as seeds for categorization.
 
-Details in: Huang et al, Nananoscale 2019 
+Details in:
+Huang, C. M., Kucinic, A., Le, J. V., Castro, C. E., & Su, H. J. (2019). Uncertainty quantification of a DNA origami mechanism using a coarse-grained model and kinematic variance analysis. Nanoscale, 11(4), 1647-1660.
+
